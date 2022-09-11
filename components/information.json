@@ -1,0 +1,38 @@
+{
+  "firstName": "Akshay",
+  "lastName": "Sarna",
+  "aboutme": "A Solution Developer, driven towards coding and constantly adding new hands on experiences on latest and disruptive technologies in order to keep up with the latest technological trends in the industry",
+  "contact": {
+    "mobileNumber": "7060757169",
+    "email": "akshay.sarna01@gmail.com"
+  },
+  "dob": "05/12/1995",
+  "currentDesignation": "Software Engineer",
+  "currentOrganization": "Hays",
+  "experience": [
+    {
+      "name": "Hays",
+      "joiningDate": "23/10/2020",
+      "designation": "Software Engineer",
+      "location": "Nodia, Uttar Pradesh, India",
+      "currentlyWorking": true
+    },
+    {
+      "name": "Infoaxon Technologies Limited",
+      "joiningDate": "08/01/2018",
+      "lastDate": "22/10/2020",
+      "designation": "Solution Developer",
+      "location": "Nodia, Uttar Pradesh, India",
+      "currentlyWorking": false
+    }
+  ],
+  "education": [
+    {
+      "name": "DIT University",
+      "degree": "B.Tech",
+      "study": "Computer Science",
+      "start": "2014",
+      "end": "2018"
+    }
+  ]
+}
