@@ -9,3 +9,17 @@ h3.subheading {
 .font14 {
   font-size: 14px;
 }
+a.nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+ul.social-info {
+  justify-content: right;
+}
+@media screen and (max-width: 768px) {
+  .social-info {
+    justify-content: center !important;
+  }
+  div.basic-info {
+    text-align: center !important;
+  }
+}

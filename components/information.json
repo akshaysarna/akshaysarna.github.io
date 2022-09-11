@@ -34,5 +34,22 @@
       "start": "2014",
       "end": "2018"
     }
+  ],
+  "socials": [
+    {
+      "icon": "bi-linkedin",
+      "link": "https://www.linkedin.com/in/akshay-sarna-184278102/",
+      "Title": "LinkedIn"
+    },
+    {
+      "icon": "bi-github",
+      "link": "https://github.com/akshaysarna/",
+      "Title": "Github"
+    },
+    {
+      "icon": "bi-instagram",
+      "link": "https://www.instagram.com/akshaysarna05/",
+      "Title": "Instagram"
+    }
   ]
 }

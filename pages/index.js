@@ -3,6 +3,9 @@ import Head from "next/head";
 import Header from "../components/Header";
 import AboutMe from "../components/AboutMe";
 import Experience from "../components/Experience";
+import Footer from "../components/Footer";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 export default function Home() {
   return (
     <div>
@@ -13,6 +16,7 @@ export default function Home() {
       <Header />
       <AboutMe />
       <Experience />
+      <Footer />
     </div>
   );
 }
