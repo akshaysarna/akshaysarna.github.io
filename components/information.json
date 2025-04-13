@@ -1,21 +1,28 @@
 {
   "firstName": "Akshay",
   "lastName": "Sarna",
-  "aboutme": "A Solution Developer, driven towards coding and constantly adding new hands on experiences on latest and disruptive technologies in order to keep up with the latest technological trends in the industry",
   "contact": {
     "mobileNumber": "7060757169",
     "email": "akshay.sarna01@gmail.com"
   },
   "dob": "05/12/1995",
-  "currentDesignation": "Software Engineer",
-  "currentOrganization": "Hays",
+  "currentDesignation": "Tech Lead",
+  "currentOrganization": "Cognizant",
   "experience": [
+    {
+      "name": "Cognizant",
+      "joiningDate": "01/11/2024",
+      "designation": "Tech Lead",
+      "location": "Nodia, Uttar Pradesh, India",
+      "currentlyWorking": true
+    },
     {
       "name": "Hays",
       "joiningDate": "23/10/2020",
-      "designation": "Software Engineer",
+      "lastDate": "31/10/2024",
+      "designation": "Senior Software Engineer",
       "location": "Nodia, Uttar Pradesh, India",
-      "currentlyWorking": true
+      "currentlyWorking": false
     },
     {
       "name": "Infoaxon Technologies Limited",
@@ -51,5 +58,38 @@
       "link": "https://www.instagram.com/akshaysarna05/",
       "Title": "Instagram"
     }
+  ],
+  "certificates": [
+    {
+      "name" : "Supervised Machine Learning, Coursera",
+      "tenure" : "01/2024 - 03/2024",
+      "description" : "Completed Course on Supervised Machine Learning for Regression and Classification"
+    }
+  ],
+  "awards": [
+    {
+      "name" : "ACE (Always Committed to Excellence) Award",
+      "tenure" : "07/2023 - 07/2024",
+      "description" : "Hays Annual Awards"
+    },
+    {
+      "name" : "GEM (Going Extra Mile) Award",
+      "tenure" : "07/2023 - 10/2023",
+      "description" : "Hays Rewards and Recognition"
+    }
+  ],
+  "skills": [
+    "Spring Boot",
+    "Microservices",
+    "Liferay",
+    "Java",
+    "Kafka",
+    "Javascript",
+    "React",
+    "MS SQL",
+    "MongoDB",
+    "GIT",
+    "HTML",
+    "JIRA"
   ]
 }

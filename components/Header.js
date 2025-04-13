@@ -16,7 +16,7 @@ export default function HeaderComponent() {
   }
   return (
     <header>
-      <div className="container">
+      <div className="container header-container">
         <div className="py-3">
           <div className="text-center">
             <Image
@@ -29,14 +29,14 @@ export default function HeaderComponent() {
           </div>
           <div className="row">
             <div className="col-md-6 basic-info">
-              <h1 className="heading">
+              <h1 className="heading fw-bold">
                 {information.firstName + " " + information.lastName}
               </h1>
-              <div>
+              <h3 className="subheading">
                 {information.currentDesignation +
                   " at " +
                   information.currentOrganization}
-              </div>
+              </h3>
             </div>
             <div className="col-md-6">
               <ul className="nav social-info">{getSocialLinks()}</ul>

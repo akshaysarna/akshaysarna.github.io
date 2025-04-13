@@ -3,6 +3,10 @@ import Head from "next/head";
 import Header from "../components/Header";
 import AboutMe from "../components/AboutMe";
 import Experience from "../components/Experience";
+import Education from "../components/Education";
+import Skills from "../components/Skills";
+import Certificates from "../components/Certificates";
+import Awards from "../components/Awards";
 import Footer from "../components/Footer";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
@@ -15,7 +19,19 @@ export default function Home() {
       </Head>
       <Header />
       <AboutMe />
-      <Experience />
+      <div className="container mr-3">
+        <div className="row">
+          <div className="col-md-6">
+            <Experience />
+            <Education/>
+          </div> 
+          <div className="col-md-6">
+            <Skills />
+            <Certificates/>
+            <Awards/>
+          </div> 
+      </div>
+      </div>
       <Footer />
     </div>
   );

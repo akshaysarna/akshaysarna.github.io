@@ -13,11 +13,12 @@ export default function Experience() {
       let starDate = moment(exp.joiningDate, "DD/MM/YYYY");
       let duration = `${starDate.format("MMM, YYYY")} - ${endDate}`;
       return (
-        <div className="col-md-6" key={index}>
+        <div className="col-md-12 pb-2" key={index}>
+
           <div>
-            <b>{exp.name}</b>
+            <b>{exp.designation}</b>
           </div>
-          <div className="font14">{exp.designation}</div>
+          <div className="font14">{exp.name}</div>
           <div className="font14">{duration}</div>
           <div className="font14 ">{exp.location}</div>
         </div>
@@ -28,7 +29,7 @@ export default function Experience() {
   return (
     <div className="container shadow rounded mt-4">
       <div className="row p-4">
-        <h3 className="subheading">Experience</h3>
+        <h3 className="subheading"><b>Experience</b></h3>
         {getExperience()}
       </div>
     </div>

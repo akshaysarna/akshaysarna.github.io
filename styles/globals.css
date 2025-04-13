@@ -1,3 +1,8 @@
+
+.container.header-container {
+  background: aliceblue;
+}
+
 h1.heading {
   font-size: 1.5rem;
 }
@@ -22,4 +27,13 @@ ul.social-info {
   div.basic-info {
     text-align: center !important;
   }
+}
+
+span.badge.rounded-pill {
+  width: auto;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px;
+  background: darkgray;
+  color: white !important;
 }
