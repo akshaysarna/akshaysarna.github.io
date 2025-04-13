@@ -2,6 +2,7 @@ import information from "./information.json";
 import Image from "next/image";
 export default function HeaderComponent() {
   let socials = information.socials;
+  const contact = information.contact;
 
   function getSocialLinks() {
     return socials.map((social, index) => {
@@ -25,7 +26,7 @@ export default function HeaderComponent() {
               alt={`${information.firstName + " " + information.lastName}`}
               width="150"
               height="150"
-            />
+            />  
           </div>
           <div className="row">
             <div className="col-md-6 basic-info">
@@ -40,7 +41,16 @@ export default function HeaderComponent() {
             </div>
             <div className="col-md-6">
               <ul className="nav social-info">{getSocialLinks()}</ul>
+              <div className="row">  
+                <div className="col-sm-12" style={{textAlign : "right"}}>
+                  <b>Email : </b>
+                  <a href={`mailto:${contact.email}`} className="text-decoration-none" style={{paddingRight : '10px'}}>
+                    {contact.email}
+                  </a>
+                </div>
+              </div>
             </div>
+            
           </div>
         </div>
       </div>
